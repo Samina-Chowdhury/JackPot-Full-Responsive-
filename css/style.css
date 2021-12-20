@@ -337,9 +337,7 @@ service part ends
 .game-img .game-overly a {
     padding: 14px 30px;
     background: #9e4efc;
-    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
-    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
-    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);;
     border-radius: 5px;
     color: #ffffff;
     font-size: 18px;
@@ -359,11 +357,10 @@ service part ends
 
 .game-img .game-overly a:hover {
     background: #ff39dc;
-    /* background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%); */
     background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
-    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
-    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
     box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);    
     text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
     color: #ffffff;
     text-decoration: none !important;
@@ -394,9 +391,7 @@ service part ends
     background-clip: text;    
     -webkit-background-clip: text;    
 	-ms-background-clip: text;
-	-moz-background-clip: text;
-	/* -webkit-background-clip: text; */
-    /* color: transparent; */
+	-moz-background-clip: text;	
     filter: drop-shadow(0 0 25px #4d0148);
     
 }
@@ -418,9 +413,9 @@ service part ends
     text-decoration: none;
     padding: 14px 30px;
     background: #9e4efc;
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
     background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
     background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
-    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
     border-radius: 5px;
     color: #ffffff;
     font-size: 20px;
@@ -495,7 +490,7 @@ service part ends
     font-size: 20px;
     color: #fff;
     font-weight: 600;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--ff1);
     padding: 20px 0;
     background: #1e5799;
     background: -moz-linear-gradient(top, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
@@ -624,7 +619,7 @@ service part ends
     /* width: 800px; */
     font-size: 40px;
     font-weight: 400;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--ff2);
     background: -webkit-linear-gradient(bottom, #fdb125 0%, #f39b42 40%, #fcb100 45%);
     background-clip: border-box;
     -webkit-background-clip: text;
@@ -686,7 +681,7 @@ service part ends
     color: #fffeff;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--ff1);
 }
 .pd-time{
     padding-bottom: 30px;
@@ -698,7 +693,7 @@ service part ends
     color: #fff;
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--ff1);
 }
 .count-down {
     float: left;
@@ -721,7 +716,7 @@ service part ends
     color: #fcb100 !important;
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--ff1);
     position: absolute;
     z-index: 99999999;
     margin: -12px;
@@ -732,7 +727,7 @@ service part ends
     color: #fcb100;
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--ff1);
 }
 .tournament {
     padding-right: 65px !important;
@@ -756,10 +751,7 @@ service part ends
     width: 100%;
     height: 1px;
     color: #fcb100;
-    background: #1a2a64;
-    /* background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
-    background: -moz-linear-gradient(top, #000000 67%, #290a59 67%);
-    background: -webkit-linear-gradient(top, #000000 67%, #290a59 67%); */
+    background: #1a2a64;    
 }  
 
 .tournament-scroll-name{
@@ -769,7 +761,7 @@ service part ends
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--ff2);
 }
 .tournament-scroll-name p{
     text-align: right;
@@ -784,13 +776,12 @@ service part ends
 #payment_part {
     padding: 30px 0;
     background: #9e4efc;
-    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
-    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
     background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);    
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);    
     -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
-    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
-    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);    
     border-bottom: 6px solid #3a0090;
 }
 
@@ -798,7 +789,7 @@ service part ends
     color: #fff;
     font-size: 32px;
     font-weight: 400;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--ff2);
     text-shadow: 4px 4px 0px #5813b8;
     padding-bottom: 15px;
 }
@@ -822,7 +813,7 @@ service part ends
     color: #3a0090;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--ff2);
 }
 
 .pay_butt {
@@ -845,7 +836,7 @@ service part ends
     color: #fff;
     font-size: 32px;
     font-weight: 400;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--ff2);
     text-shadow: 4px 4px 0px #5813b8;
     padding-bottom: 15px;
 }
@@ -862,16 +853,16 @@ service part ends
 #footer_part {
     padding: 55px 0 34px 0;
     background: #0b001b;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 1);
     -webkit-box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 1);
-    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 1);
 }
 
 .foot_about h3 {
     color: #fff;
     font-size: 32px;
     font-weight: 400;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--ff2);
     padding-bottom: 21px;
 }
 
@@ -879,7 +870,7 @@ service part ends
     color: #fff;
     font-size: 16px;
     font-weight: 200;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--ff1);
     padding-bottom: 23px;
 }
 
@@ -888,34 +879,34 @@ service part ends
     color: #fff;
     height: 53px;
     width: 50px;
-    background: #9e4efc;
+    background: #9e4efc;    
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
     background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
     background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
-    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
     text-align: center;
     line-height: 50px;
     margin-right: 10px;
     cursor: pointer;
+    box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
     -webkit-box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
     -moz-box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
-    box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
 }
 
 .foot_about i:hover {
-    background: #ff39dc;
+    background: #ff39dc;    
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
     background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
     background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
-    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
     -webkit-box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
     -moz-box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
-    box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
 }
 
 .foot_info_head h3 {
     color: #fff;
     font-size: 32px;
     font-weight: 400;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--ff1);
     padding-bottom: 21px;
 }
 
@@ -927,7 +918,7 @@ service part ends
     color: #fff;
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--ff2);
     padding-bottom: 15px;
     display: inline-block;
     transition: all linear .5s;
@@ -947,7 +938,7 @@ service part ends
     color: #fff;
     font-size: 32px;
     font-weight: 400;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--ff2);
     padding-bottom: 27px;
 }
 
@@ -959,7 +950,7 @@ service part ends
     color: #fff;
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--ff1);
     padding-left: 30px;
 }
 
